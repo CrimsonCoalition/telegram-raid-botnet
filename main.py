@@ -21,6 +21,19 @@ from modules.storages.functions_storage import FunctionsStorage
 
 console = Console()
 
+# Banner & Menu
+console.print("""
+[italic blue]
+
+   ______     _                               ____          
+  / ____/____(_)___ ___  _________  ____     /  _/___  _____
+ / /   / ___/ / __ `__ \/ ___/ __ \/ __ \    / // __ \/ ___/
+/ /___/ /  / / / / / / (__  ) /_/ / / / /  _/ // / / / /___ 
+\____/_/  /_/_/ /_/ /_/____/\____/_/ /_/  /___/_/ /_/\___(_)
+                                                            
+""")  
+
+# Copyright Message
 console.print("""
 [bold magenta]Copyright (C) 2022  https://github.com/json1c/telegram-raid-botnet
 This program comes with ABSOLUTELY NO WARRANTY.
