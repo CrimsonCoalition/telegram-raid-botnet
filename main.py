@@ -35,7 +35,7 @@ console.print("""
 
 # Copyright Message
 console.print("""
-[bold magenta]Copyright (C) 2022  https://github.com/json1c/telegram-raid-botnet
+[italic red]Copyright (C) 2022  https://github.com/json1c/telegram-raid-botnet
 This program comes with ABSOLUTELY NO WARRANTY.
 This is free software, and you are welcome to redistribute it under certain conditions.[/]
 """)
