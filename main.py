@@ -11,6 +11,7 @@
 # You should have received a copy of the GNU General Public License along with this program.
 # If not, see <https://www.gnu.org/licenses/>.
 
+# Imports
 import sys
 import locale
 from rich.console import Console
@@ -40,7 +41,9 @@ This program comes with ABSOLUTELY NO WARRANTY.
 This is free software, and you are welcome to redistribute it under certain conditions.[/]
 """)
 
-console.print("Author's channel: [link=https://t.me/huis_tg]https://t.me/huis_tg")
+# Author's Channel Link
+console.print("""
+[bold green] :alien_monster: Author's channel: [link=https://t.me/crimsoncoalition]https://t.me/crimsoncoalition""")
 
 
 if "UTF-8" not in locale.getlocale():
